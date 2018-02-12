@@ -1,0 +1,120 @@
+{
+  "name":"Shawn",
+  "photo":"../public/img/jayZ.jpg",
+  "scores":[
+      5,
+      4,
+      5,
+      4,
+      1,
+      1,
+      4,
+      2
+    ]
+}
+
+{
+  "name":"Bey",
+  "photo":"../public/img/Beyonce.jpg",
+  "scores":[
+      2,
+      5,
+      5,
+      5,
+      2,
+      5,
+      4,
+      2
+    ]
+}
+
+{
+  "name":"Rihanna",
+  "photo":"../public/img/Rihanna.jpg",
+  "scores":[
+      1,
+      3,
+      4,
+      2,
+      3,
+      1,
+      3,
+      3
+    ]
+}
+
+{
+  "name":"Kanye",
+  "photo":"..public/img/Kanye.jpg",
+  "scores":[
+      1,
+      1,
+      1,
+      2,
+      1,
+      5,
+      4,
+      5
+    ]
+}
+
+{
+  "name":"Solange",
+  "photo":"..public/img/Solange.jpg",
+  "scores":[
+      1,
+      5,
+      4,
+      2,
+      3,
+      5,
+      4,
+      3
+    ]
+}
+
+{
+  "name":"Mariah",
+  "photo":"..public/img/Mariah.jpg",
+  "scores":[
+      1,
+      4,
+      3,
+      5,
+      1,
+      1,
+      4,
+      2
+
+    ]
+}
+
+{
+  "name":"Khaled",
+  "photo":"..public/img/Khaled.jpg",
+  "scores":[
+      1,
+      5,
+      1,
+      2,
+      5,
+      5,
+      5,
+      2
+    ]
+}
+
+{
+  "name":"Clifford",
+  "photo":"..public/img/Clifford.jpg",
+  "scores":[
+      1,
+      1,
+      2,
+      4,
+      1,
+      5,
+      5,
+      3
+    ]
+}
