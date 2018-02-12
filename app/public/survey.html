@@ -231,7 +231,7 @@
     <script type="text/javascript">
       $("#submit-button").on("click", function(event) {
           event.preventDefault();
-          //gets object from form data
+          
           var newFriend = {
               name: $("#name").val(),
               photo: $("#photo").val(),
@@ -253,11 +253,11 @@
               alert('please make sure that all items are filled in!')
             }
             else{
-              //gets final match from friendList object
+              
               $.get("/api/friends", function(req, res) {
               friendList = req;
               
-                  //compareMatch function call
+                  
                   compareMatches(newFriend);
               });
               $('#myModal').modal('show');
@@ -266,12 +266,7 @@
               });
             }
           }
-        // var friendList;
         
-          
-          //posts new friend to json
-          
-          //triggers modal
           
         });
         function displayMatch(m) {
@@ -280,7 +275,7 @@
             $("#matchName").text(matched.name);
             $("#matchFace").attr("src", matched.photo);
           }
-          //function declaration - takes newFriend object and compares to all objects in friendList and pushes matched questions to counter array
+          
           function compareMatches(n){
             var counterArray = [];
             for(i=0; i < friendList.length; i++){
@@ -321,9 +316,9 @@
             
           }
           
-          //finds higest # in counterArray
+          
           var matchIndex = counterArray.indexOf(Math.max(...counterArray));
-          //calls display match function
+         
           displayMatch(matchIndex);
         };
     </script>
